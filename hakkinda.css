@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.maincontrol {
+    padding: 0 2rem;
+    height: 100vh;
+    width: 20rem;
+   
+    background-color:  #28b485;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribute items evenly */
+    height: 100%; /* Make sure sidebar takes full height */
+     /* Add some padding to avoid items sticking to the edges */
+}
+
+
+.Questions, .li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.logo {
+    width: 55%;
+}
+
+
+.answerpage {
+    background-color: #777;
+    height: 100%;
+    width: 100%;
+}
